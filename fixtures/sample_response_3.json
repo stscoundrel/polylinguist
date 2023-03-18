@@ -1,0 +1,12 @@
+{
+  "data": {
+    "user": {
+      "repositories": {
+        "pageInfo": {
+          "endCursor": null
+        },
+        "nodes": []
+      }
+    }
+  }
+}

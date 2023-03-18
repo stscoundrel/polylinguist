@@ -1,0 +1,1805 @@
+{
+  "data": {
+    "user": {
+      "repositories": {
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpHOHifEvg=="
+        },
+        "nodes": [
+          {
+            "name": "fistmaster",
+            "languages": {
+              "edges": [
+                {
+                  "size": 21244,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                },
+                {
+                  "size": 4393,
+                  "node": {
+                    "color": "#563d7c",
+                    "name": "CSS"
+                  }
+                },
+                {
+                  "size": 2668,
+                  "node": {
+                    "color": "#e34c26",
+                    "name": "HTML"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "wp-post-crud",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9884,
+                  "node": {
+                    "color": "#4F5D95",
+                    "name": "PHP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ouroboros-orm",
+            "languages": {
+              "edges": [
+                {
+                  "size": 60485,
+                  "node": {
+                    "color": "#4F5D95",
+                    "name": "PHP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "svangr",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7548,
+                  "node": {
+                    "color": "#4F5D95",
+                    "name": "PHP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "sanakirju",
+            "languages": {
+              "edges": [
+                {
+                  "size": 36031,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 826,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "sanakirju-mongoose",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3196,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "sanakirju-objectionjs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 5691,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ratatoskr-log",
+            "languages": {
+              "edges": [
+                {
+                  "size": 838,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-ordbok",
+            "languages": {
+              "edges": [
+                {
+                  "size": 5695,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ordbok-knex",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3757,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ordbok-mongodb",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2654,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "sanakirju-knex",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4336,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "skilja",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1436,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "sanakirju-mongodb",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2499,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "volva",
+            "languages": {
+              "edges": [
+                {
+                  "size": 38906,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 814,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ordbok-json",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1863,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "teljari",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2556,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-alphabet",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3411,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 344,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "karelian-alphabet",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4275,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-zoega",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4428,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "cleasby-vigfusson-dictionary",
+            "languages": {
+              "edges": [
+                {
+                  "size": 5429,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "harlaw",
+            "languages": {
+              "edges": [
+                {
+                  "size": 13076,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "north-germanic-alphabets",
+            "languages": {
+              "edges": [
+                {
+                  "size": 10480,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "struct",
+            "languages": {
+              "edges": [
+                {
+                  "size": 11252,
+                  "node": {
+                    "color": "#4F5D95",
+                    "name": "PHP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "cleasby-vigfusson-next",
+            "languages": {
+              "edges": [
+                {
+                  "size": 93003,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 65526,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                },
+                {
+                  "size": 12617,
+                  "node": {
+                    "color": "#c6538c",
+                    "name": "SCSS"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "spyrjari",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1386,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 389,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "jafningjar",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2696,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "vercel-issue-76537",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3299,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-alphabet-sort",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3828,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 472,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gangleri",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2089,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 527,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gangleri-cleasby-vigfusson",
+            "languages": {
+              "edges": [
+                {
+                  "size": 222,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "node-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1058,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "typescript-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                },
+                {
+                  "size": 665,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "markari",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4015,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "php-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 939,
+                  "node": {
+                    "color": "#4F5D95",
+                    "name": "PHP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "collection",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7523,
+                  "node": {
+                    "color": "#4F5D95",
+                    "name": "PHP"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "younger-futhark",
+            "languages": {
+              "edges": [
+                {
+                  "size": 13268,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 882,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "elder-futhark",
+            "languages": {
+              "edges": [
+                {
+                  "size": 6225,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "futhorc",
+            "languages": {
+              "edges": [
+                {
+                  "size": 6451,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "runes",
+            "languages": {
+              "edges": [
+                {
+                  "size": 21223,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 7425,
+                  "node": {
+                    "color": "#c6538c",
+                    "name": "SCSS"
+                  }
+                },
+                {
+                  "size": 1454,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "cleasby-vigfusson-abbreviations",
+            "languages": {
+              "edges": [
+                {
+                  "size": 48889,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "abbreviatrix",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4339,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-zoega-next",
+            "languages": {
+              "edges": [
+                {
+                  "size": 59401,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                },
+                {
+                  "size": 57094,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 12795,
+                  "node": {
+                    "color": "#c6538c",
+                    "name": "SCSS"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-zoega-abbreviations",
+            "languages": {
+              "edges": [
+                {
+                  "size": 6498,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "runes-api",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4967,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gangleri-zoega",
+            "languages": {
+              "edges": [
+                {
+                  "size": 205,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "futhork",
+            "languages": {
+              "edges": [
+                {
+                  "size": 5209,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "teljari-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2539,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "riimut-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 34846,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "year-2038-problem",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1256,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "year-2038-problem-c",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1174,
+                  "node": {
+                    "color": "#555555",
+                    "name": "C"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "year-2038-problem-cpp",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1175,
+                  "node": {
+                    "color": "#f34b7d",
+                    "name": "C++"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gandhi-ai-bug",
+            "languages": {
+              "edges": [
+                {
+                  "size": 895,
+                  "node": {
+                    "color": "#555555",
+                    "name": "C"
+                  }
+                },
+                {
+                  "size": 866,
+                  "node": {
+                    "color": "#f34b7d",
+                    "name": "C++"
+                  }
+                },
+                {
+                  "size": 795,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "brutefarce",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2448,
+                  "node": {
+                    "color": "#f34b7d",
+                    "name": "C++"
+                  }
+                },
+                {
+                  "size": 2245,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                },
+                {
+                  "size": 2072,
+                  "node": {
+                    "color": "#b07219",
+                    "name": "Java"
+                  }
+                },
+                {
+                  "size": 1717,
+                  "node": {
+                    "color": "#555555",
+                    "name": "C"
+                  }
+                },
+                {
+                  "size": 1594,
+                  "node": {
+                    "color": "#A97BFF",
+                    "name": "Kotlin"
+                  }
+                },
+                {
+                  "size": 1592,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                },
+                {
+                  "size": 1580,
+                  "node": {
+                    "color": "#c22d40",
+                    "name": "Scala"
+                  }
+                },
+                {
+                  "size": 1519,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 1488,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                },
+                {
+                  "size": 1377,
+                  "node": {
+                    "color": "#b845fc",
+                    "name": "F#"
+                  }
+                },
+                {
+                  "size": 1147,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                },
+                {
+                  "size": 1135,
+                  "node": {
+                    "color": "#ffc200",
+                    "name": "Nim"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "rust-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 184,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ogham",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9717,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "cleasby-vigfusson-dictionary-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4581,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-zoega-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4506,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "harlaw-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 29597,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                },
+                {
+                  "size": 804,
+                  "node": {
+                    "color": null,
+                    "name": "ASL"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "riimut-cs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 35195,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "runes-api-dotnet",
+            "languages": {
+              "edges": [
+                {
+                  "size": 11486,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                },
+                {
+                  "size": 625,
+                  "node": {
+                    "color": "#384d54",
+                    "name": "Dockerfile"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gatsby-source-cleasby-vigfusson",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9014,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 859,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gatsby-source-plugin-zoega",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9704,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 859,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ogham-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 6865,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-alphabet-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 10553,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "riimut-nim",
+            "languages": {
+              "edges": [
+                {
+                  "size": 21138,
+                  "node": {
+                    "color": "#ffc200",
+                    "name": "Nim"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "nim-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 376,
+                  "node": {
+                    "color": "#ffc200",
+                    "name": "Nim"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "riimut-go",
+            "languages": {
+              "edges": [
+                {
+                  "size": 20125,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "go-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 369,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "advent-of-code-2021",
+            "languages": {
+              "edges": [
+                {
+                  "size": 118570,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "goodbrother",
+            "languages": {
+              "edges": [
+                {
+                  "size": 12689,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "goodbrother-vercel",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3022,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                },
+                {
+                  "size": 23,
+                  "node": {
+                    "color": "#89e051",
+                    "name": "Shell"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "ogham-nim",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7471,
+                  "node": {
+                    "color": "#ffc200",
+                    "name": "Nim"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "goodbrother-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 15972,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "python-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 707,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "riimut-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 19737,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "emma",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9038,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 520,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-alphabet-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7860,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "alliser",
+            "languages": {
+              "edges": [
+                {
+                  "size": 10133,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 1468,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "alliser-action",
+            "languages": {
+              "edges": [
+                {
+                  "size": 638,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 396,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-dictionary-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3354,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-dictionary-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3477,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-builder",
+            "languages": {
+              "edges": [
+                {
+                  "size": 15249,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary",
+            "languages": {
+              "edges": [
+                {
+                  "size": 17049886,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-abbreviations",
+            "languages": {
+              "edges": [
+                {
+                  "size": 13807,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3099,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "gatsby-source-plugin-old-norwegian",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7761,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 859,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "sanakirju-simplifier",
+            "languages": {
+              "edges": [
+                {
+                  "size": 6819,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 17805885,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "kven-norwegian-dictionary-builder",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9566,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-next",
+            "languages": {
+              "edges": [
+                {
+                  "size": 114373,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 12751,
+                  "node": {
+                    "color": "#c6538c",
+                    "name": "SCSS"
+                  }
+                },
+                {
+                  "size": 2801,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-go",
+            "languages": {
+              "edges": [
+                {
+                  "size": 18730476,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-cs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4761,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "dotnet-cs-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 417,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-dictionary-cs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3933,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-dictionary-cs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 14514,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "java-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 694,
+                  "node": {
+                    "color": "#b07219",
+                    "name": "Java"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "riimut-java",
+            "languages": {
+              "edges": [
+                {
+                  "size": 28202,
+                  "node": {
+                    "color": "#b07219",
+                    "name": "Java"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "dotnet-fs-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 378,
+                  "node": {
+                    "color": "#b845fc",
+                    "name": "F#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "troubleman",
+            "languages": {
+              "edges": [
+                {
+                  "size": 8071,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
