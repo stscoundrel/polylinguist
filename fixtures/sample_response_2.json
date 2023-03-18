@@ -1,0 +1,489 @@
+{
+  "data": {
+    "user": {
+      "repositories": {
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpHOIyAJow=="
+        },
+        "nodes": [
+          {
+            "name": "troubleman-vercel",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1299,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "staveless-futhark",
+            "languages": {
+              "edges": [
+                {
+                  "size": 5393,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "dependabot-automerge-extension",
+            "languages": {
+              "edges": [
+                {
+                  "size": 6574,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 379,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "viking-language-dictionary",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3464,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 434,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "viking-language-dictionary-scrape-script",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1290,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "viking-language-dictionary-abbrevations",
+            "languages": {
+              "edges": [
+                {
+                  "size": 9253,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "viking-language-dictionary-next",
+            "languages": {
+              "edges": [
+                {
+                  "size": 88616,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 12673,
+                  "node": {
+                    "color": "#c6538c",
+                    "name": "SCSS"
+                  }
+                },
+                {
+                  "size": 1471,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "minuteman",
+            "languages": {
+              "edges": [
+                {
+                  "size": 13802,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-builder",
+            "languages": {
+              "edges": [
+                {
+                  "size": 10216,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4188,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 811,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "starboard",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3861,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-py",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7079,
+                  "node": {
+                    "color": "#3572A5",
+                    "name": "Python"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-cs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 5837,
+                  "node": {
+                    "color": "#178600",
+                    "name": "C#"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-rs",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3625,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "starboard-gin",
+            "languages": {
+              "edges": [
+                {
+                  "size": 1609,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-go",
+            "languages": {
+              "edges": [
+                {
+                  "size": 2208,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-dictionary-go",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3372,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-dictionary-go",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3649,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-next",
+            "languages": {
+              "edges": [
+                {
+                  "size": 117879,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 13030,
+                  "node": {
+                    "color": "#c6538c",
+                    "name": "SCSS"
+                  }
+                },
+                {
+                  "size": 1394,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-icelandic-dictionary-java",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4689,
+                  "node": {
+                    "color": "#b07219",
+                    "name": "Java"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norse-dictionary-scala",
+            "languages": {
+              "edges": [
+                {
+                  "size": 13886,
+                  "node": {
+                    "color": "#c22d40",
+                    "name": "Scala"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "scala-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 430,
+                  "node": {
+                    "color": "#c22d40",
+                    "name": "Scala"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-scala",
+            "languages": {
+              "edges": [
+                {
+                  "size": 4633,
+                  "node": {
+                    "color": "#c22d40",
+                    "name": "Scala"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-norwegian-dictionary-kt",
+            "languages": {
+              "edges": [
+                {
+                  "size": 3010,
+                  "node": {
+                    "color": "#A97BFF",
+                    "name": "Kotlin"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "kotlin-template",
+            "languages": {
+              "edges": [
+                {
+                  "size": 541,
+                  "node": {
+                    "color": "#A97BFF",
+                    "name": "Kotlin"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "old-swedish-dictionary-abbreviations",
+            "languages": {
+              "edges": [
+                {
+                  "size": 28029,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 472,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "scandinavian-dictionary-crosslinker",
+            "languages": {
+              "edges": [
+                {
+                  "size": 7221,
+                  "node": {
+                    "color": "#00ADD8",
+                    "name": "Go"
+                  }
+                },
+                {
+                  "size": 7042,
+                  "node": {
+                    "color": "#3178c6",
+                    "name": "TypeScript"
+                  }
+                },
+                {
+                  "size": 1412,
+                  "node": {
+                    "color": "#ffc200",
+                    "name": "Nim"
+                  }
+                },
+                {
+                  "size": 1211,
+                  "node": {
+                    "color": "#dea584",
+                    "name": "Rust"
+                  }
+                },
+                {
+                  "size": 501,
+                  "node": {
+                    "color": "#f1e05a",
+                    "name": "JavaScript"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
