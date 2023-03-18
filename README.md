@@ -1,3 +1,3 @@
-# Go Template
+# Polylinguist
 
-Template repo for generic Go module with CI
+More exact language usage stats from Github profile
