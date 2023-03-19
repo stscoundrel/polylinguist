@@ -45,7 +45,7 @@ func TestGetTopLanguages(t *testing.T) {
 				},
 				github.Language{
 					Name:  "Rust",
-					Size:  995,
+					Size:  945,
 					Color: "",
 				},
 				// Should be ignored by language setting.
@@ -77,6 +77,12 @@ func TestGetTopLanguages(t *testing.T) {
 				github.Language{
 					Name:  "Go",
 					Size:  1000,
+					Color: "",
+				},
+				// Should be combined with C as composite due to alias.
+				github.Language{
+					Name:  "C++",
+					Size:  50,
 					Color: "",
 				},
 			},
@@ -115,6 +121,16 @@ func TestGetTopLanguages(t *testing.T) {
 			"Dummy Repository 5",
 			"Dummy Repository 6",
 		},
+		AliasedLanguages: []LanguageAlias{
+			{
+				Language: "C",
+				Alias:    "C/C++",
+			},
+			{
+				Language: "C++",
+				Alias:    "C/C++",
+			},
+		},
 	}
 
 	result := GetTopLanguages(repos, settings)
@@ -126,9 +142,9 @@ func TestGetTopLanguages(t *testing.T) {
 	assert.Equal(t, "Go", result[0].Name)
 	assert.Equal(t, 28.372818839551712, result[0].Percentage)
 
-	// C should be the least used.
-	assert.Equal(t, "C", result[6].Name)
-	assert.Equal(t, 0.7093204709887928, result[6].Percentage)
+	// Composite alias C/C++ should be the least used.
+	assert.Equal(t, "C/C++", result[6].Name)
+	assert.Equal(t, 1.4186409419775856, result[6].Percentage)
 
 	// Languages with identical share should have identical percentage.
 	// Use Java & Kotlin as examples.

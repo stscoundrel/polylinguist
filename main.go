@@ -17,6 +17,16 @@ func main() {
 			"old-norwegian-dictionary-rs",
 			"old-norwegian-dictionary-go",
 		},
+		AliasedLanguages: []stats.LanguageAlias{
+			{
+				Language: "C",
+				Alias:    "C/C++",
+			},
+			{
+				Language: "C++",
+				Alias:    "C/C++",
+			},
+		},
 	}
 
 	repositories, err := github.GetRepositories("stscoundrel", "https://api.github.com/graphql", accessToken)
@@ -27,11 +37,6 @@ func main() {
 	}
 
 	stats := stats.GetTopLanguages(repositories, settings)
-
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
 
 	for index, language := range stats {
 		fmt.Printf("%d. %s - %f - %s \n", index+1, language.Name, language.Percentage, language.Color)
