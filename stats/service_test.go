@@ -27,6 +27,12 @@ func TestGetTopLanguages(t *testing.T) {
 					Size:  50,
 					Color: "",
 				},
+				// Should be ignored by language setting.
+				github.Language{
+					Name:  "CSS",
+					Size:  9999999,
+					Color: "",
+				},
 			},
 		},
 		github.Repository{
@@ -40,6 +46,12 @@ func TestGetTopLanguages(t *testing.T) {
 				github.Language{
 					Name:  "Rust",
 					Size:  995,
+					Color: "",
+				},
+				// Should be ignored by language setting.
+				github.Language{
+					Name:  "ASL",
+					Size:  9999999,
 					Color: "",
 				},
 			},
@@ -69,9 +81,43 @@ func TestGetTopLanguages(t *testing.T) {
 				},
 			},
 		},
+		// These repos should be ignored by settings.
+		github.Repository{
+			Name: "Dummy Repository 5",
+			Languages: []github.Language{
+				github.Language{
+					Name:  "JavaScript",
+					Size:  9999,
+					Color: "",
+				},
+			},
+		},
+		github.Repository{
+			Name: "Dummy Repository 6",
+			Languages: []github.Language{
+				github.Language{
+					Name:  "TypeScript",
+					Size:  999999,
+					Color: "",
+				},
+				github.Language{
+					Name:  "Nim",
+					Size:  2000,
+					Color: "",
+				},
+			},
+		},
 	}
 
-	result := GetTopLanguages(repos)
+	settings := Settings{
+		IgnoredLanguages: []string{"SCSS", "CSS", "ASL", "HTML"},
+		IgnoredRepos: []string{
+			"Dummy Repository 5",
+			"Dummy Repository 6",
+		},
+	}
+
+	result := GetTopLanguages(repos, settings)
 
 	// 7 total languages.
 	assert.Equal(t, len(result), 7)

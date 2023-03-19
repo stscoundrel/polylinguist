@@ -12,7 +12,28 @@ type LanguageStatistic struct {
 	Color      string
 }
 
-func getLanguagesMap(repositories []github.Repository) map[string]int {
+func filterRepositories(repositories []github.Repository, settings Settings) []github.Repository {
+	filtered := []github.Repository{}
+
+	for _, repository := range repositories {
+		if !isInSlice(repository.Name, settings.IgnoredRepos) {
+			filteredLanguages := []github.Language{}
+
+			for _, language := range repository.Languages {
+				if !isInSlice(language.Name, settings.IgnoredLanguages) {
+					filteredLanguages = append(filteredLanguages, language)
+				}
+			}
+
+			repository.Languages = filteredLanguages
+			filtered = append(filtered, repository)
+		}
+	}
+
+	return filtered
+}
+
+func getLanguagesMap(repositories []github.Repository, settings Settings) map[string]int {
 	languagesBySize := map[string]int{}
 
 	for _, repository := range repositories {
@@ -24,7 +45,7 @@ func getLanguagesMap(repositories []github.Repository) map[string]int {
 	return languagesBySize
 }
 
-func getColorsMap(repositories []github.Repository) map[string]string {
+func getColorsMap(repositories []github.Repository, settings Settings) map[string]string {
 	colors := map[string]string{}
 
 	for _, repository := range repositories {
@@ -62,9 +83,11 @@ func getLanguagesStats(sizeMapping map[string]int, colorMapping map[string]strin
 	return stats
 }
 
-func GetTopLanguages(repositories []github.Repository) []LanguageStatistic {
-	bySize := getLanguagesMap(repositories)
-	byColor := getColorsMap(repositories)
+func GetTopLanguages(repositories []github.Repository, settings Settings) []LanguageStatistic {
+	repos := filterRepositories(repositories, settings)
+
+	bySize := getLanguagesMap(repos, settings)
+	byColor := getColorsMap(repos, settings)
 	stats := getLanguagesStats(bySize, byColor)
 
 	sort.Slice(stats, func(i, j int) bool {
