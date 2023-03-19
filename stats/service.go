@@ -13,6 +13,10 @@ type LanguageStatistic struct {
 }
 
 func filterRepositories(repositories []github.Repository, settings Settings) []github.Repository {
+	// Filter repositories:
+	// - Drop ignored repos
+	// - Drop ignored languages
+	// - Combine language aliases.
 	filtered := []github.Repository{}
 
 	for _, repository := range repositories {
@@ -21,6 +25,16 @@ func filterRepositories(repositories []github.Repository, settings Settings) []g
 
 			for _, language := range repository.Languages {
 				if !isInSlice(language.Name, settings.IgnoredLanguages) {
+					for _, alias := range settings.AliasedLanguages {
+						if alias.Language == language.Name {
+							// Should alias as combination lang.
+							language.Name = alias.Alias
+							if len(alias.Color) > 0 {
+								language.Color = alias.Color
+							}
+						}
+					}
+
 					filteredLanguages = append(filteredLanguages, language)
 				}
 			}
