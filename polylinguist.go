@@ -17,7 +17,7 @@ func getLanguageStats(username string, accessToken string, settings stats.Settin
 		return []stats.LanguageStatistic{}, err
 	}
 
-	return stats.GetTopLanguages(repositories, stats.Settings{}), nil
+	return stats.GetTopLanguages(repositories, settings), nil
 }
 
 func GetTopLanguages(username string, accessToken string) ([]stats.LanguageStatistic, error) {
