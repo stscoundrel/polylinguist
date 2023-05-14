@@ -111,3 +111,7 @@ Output will be something to the effect of:
 ```
 
 Up to you what kind of graphic or chart you want to produce with the data. The data includes Github language colors for visual portions.
+
+### As Vercel Cloud Function
+
+For a template on usage as a cloud function on Vercel, see [this repo](https://github.com/stscoundrel/polylinguist-vercel)
