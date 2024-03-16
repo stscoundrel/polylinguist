@@ -8,6 +8,7 @@ import (
 
 type LanguageStatistic struct {
 	Name       string
+	Size       int
 	Percentage float64
 	Color      string
 }
@@ -89,6 +90,7 @@ func getLanguagesStats(sizeMapping map[string]int, colorMapping map[string]strin
 	for language, size := range sizeMapping {
 		stats = append(stats, LanguageStatistic{
 			Name:       language,
+			Size:       size,
 			Percentage: (float64(size) / float64(totalSize)) * 100.0,
 			Color:      colorMapping[language],
 		})

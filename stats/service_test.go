@@ -141,10 +141,12 @@ func TestGetTopLanguages(t *testing.T) {
 	// Go should be the top language.
 	assert.Equal(t, "Go", result[0].Name)
 	assert.Equal(t, 28.372818839551712, result[0].Percentage)
+	assert.Equal(t, 2000, result[0].Size)
 
 	// Composite alias C/C++ should be the least used.
 	assert.Equal(t, "C/C++", result[6].Name)
 	assert.Equal(t, 1.4186409419775856, result[6].Percentage)
+	assert.Equal(t, 100, result[6].Size)
 
 	// Languages with identical share should have identical percentage.
 	// Use Java & Kotlin as examples.
